@@ -6,78 +6,106 @@
     <title>My First Webpage</title>
 </head>
 <body>
-    <h1>Nurzhigit Bolat</h1>
-    <h2>MT-2401</h2>
-    <h3>About me:</h3>
-    <p>I am 18 yers old. I am from Uralsk, West Kazakhstan. At the moment I live in Uly Dala Avenue.</p>
-    <h3>My hobbies</h3>  
-    <ol>
-        <li>Cycling</li>
-        <li>Videogames</li>
-        <li>Grapling</li>
-    </ol>
-    <h3>My favourite websites</h3>
-    <ul>
-        <li><a href="https://www.rolls-roycemotorcars.com/en_GB/home.html">Rolls Royce</a></li>
-        <li><a href="https://intl.nothing.tech/">Noting Phone</a></li>
-        <li><a href="http://nike.com/">Nike</a></li>
-    </ul>
-    <img src="Batman.avif" alt="Photo" width="200" height="300">
-    <br>
-    <button>Click me</button>
 
-    <hr style="height: 2px; background-color: black; border: none;">
-    <h3>Weekly Class Schedule</h3>
-        <table border="1">
-            <tr>
-                <th>Subject</th>
-                <th>Day</th>
-                <th>Time</th>
-            </tr>
-            <tr>
-                <td>Cinematography & Digital Editing</td>
-                <td>Monday</td>
-                <td>14:00 </td>
-            </tr>
-            <tr>
-                <td>WEB Technologies 1 (Front End)</td>
-                <td>Monday</td>
-                <td>16:00 </td>
-            </tr>
-            <tr>
-                <td>Cinematography & Digital Editing</td>
-                <td>Tuesday</td>
-                <td>13:05 </td>
-            </tr>
-            <tr>
-                <td>Foundation of Screenwriting</td>
-                <td>Thuesday</td>
-                <td>16:00 </td>
-            </tr>
-            <tr>
-                <td>Operating Systems and Computer Networks</td>
-                <td>Friday</td>
-                <td>12:00 </td>
-            </tr>
-        </table>
-    <h3>How was my mood today</h3>
-    <p>Today was mostly a really good day 😊. I felt happy and things were going well throughout. But at the end of the day, something frustrating happened 😕 — my headphones broke 💔🎧<br> 
-        It kind of spoiled the mood, but overall the day was still good 🌟.</p>
-    <h3>Please fill the form</h3>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <br><br>
+    <table border="1">
+        <tr>
+            <td width="20%" valign="top">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#websites">Websites</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#mood">Mood</a></li>
+                    <li><a href="#form">Form</a></li>
+                </ul>
+            </td>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br><br>
+            <td valign="top">
+                <h1 id="about">Nurzhigit Bolat</h1>
+                <h2>MT-2401</h2>
+                <h3>About Me</h3>
+                <p>I am 18 years old. I am from Uralsk, West Kazakhstan. At the moment I live in Uly Dala Avenue.</p>
+                
+                <h3 id="hobbies">My Hobbies</h3>  
+                <ol>
+                    <li>Cycling</li>
+                    <li>Videogames</li>
+                    <li>Grappling</li>
+                </ol>
 
-        <label for="color">Favorite Color:</label>
-        <input type="color" id="color" name="color">
-        <br><br>
+                <h3 id="websites">My Favourite Websites</h3>
+                <ul>
+                    <li><a href="https://www.rolls-roycemotorcars.com/en_GB/home.html" target="_blank">Rolls Royce</a></li>
+                    <li><a href="https://intl.nothing.tech/" target="_blank">Nothing Phone</a></li>
+                    <li><a href="https://nike.com/" target="_blank">Nike</a></li>
+                </ul>
 
-        <input type="submit" value="Submit">
-    </form>
+                <img src="Batman.avif" alt="Photo" width="200" height="300">
+                <br>
+
+                <button>Click Me</button>
+
+                <hr>
+                <h3 id="schedule">Weekly Class Schedule</h3>
+                <table border="1" width="100%">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Day</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <td>Cinematography & Digital Editing</td>
+                        <td>Monday</td>
+                        <td>14:00</td>
+                    </tr>
+                    <tr>
+                        <td>WEB Technologies 1 (Front End)</td>
+                        <td>Monday</td>
+                        <td>16:00</td>
+                    </tr>
+                    <tr>
+                        <td>Cinematography & Digital Editing</td>
+                        <td>Tuesday</td>
+                        <td>13:05</td>
+                    </tr>
+                    <tr>
+                        <td>Foundation of Screenwriting</td>
+                        <td>Thursday</td>
+                        <td>16:00</td>
+                    </tr>
+                    <tr>
+                        <td>Operating Systems and Computer Networks</td>
+                        <td>Friday</td>
+                        <td>12:00</td>
+                    </tr>
+                </table>
+
+                <hr>
+                <h3 id="mood">How was my mood today</h3>
+                <p>Today was mostly a really good day 😊. I felt happy and things were going well throughout. But at the end of the day, something frustrating happened 😕 — my headphones broke 💔🎧.<br>
+                It kind of spoiled the mood, but overall the day was still good 🌟.</p>
+
+                <hr>
+                <h3 id="form">Please Fill the Form</h3>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+
+                    <label for="color">Favorite Color:</label><br>
+                    <input type="color" id="color" name="color">
+                    <br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </td>
+        </tr>
+    </table>
+
 </body>
 </html>
