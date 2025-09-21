@@ -2,110 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage</title>
+    <title>Assignment Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="header">
+        <h1>My Assignment Website</h1>
+    </div>
 
-    <table border="1">
-        <tr>
-            <td width="20%" valign="top">
-                <h3>Navigation</h3>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="#websites">Websites</a></li>
-                    <li><a href="#schedule">Schedule</a></li>
-                    <li><a href="#mood">Mood</a></li>
-                    <li><a href="#form">Form</a></li>
-                </ul>
-            </td>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="tribute.html">Tribute Page</a>
+        <a href="table-form.html">Table & Form</a>
+        <a href="#">Task 4 (Skipped)</a>
+    </div>
 
-            <td valign="top">
-                <h1 id="about">Nurzhigit Bolat</h1>
-                <h2>MT-2401</h2>
-                <h3>About Me</h3>
-                <p>I am 18 years old. I am from Uralsk, West Kazakhstan. At the moment I live in Uly Dala Avenue.</p>
-                
-                <h3 id="hobbies">My Hobbies</h3>  
-                <ol>
-                    <li>Cycling</li>
-                    <li>Videogames</li>
-                    <li>Grappling</li>
-                </ol>
+    <div class="sidebar">
+        <h3>Menu</h3>
+        <ul>
+        <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#me">About Me</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </div>
 
-                <h3 id="websites">My Favourite Websites</h3>
-                <ul>
-                    <li><a href="https://www.rolls-roycemotorcars.com/en_GB/home.html" target="_blank">Rolls Royce</a></li>
-                    <li><a href="https://intl.nothing.tech/" target="_blank">Nothing Phone</a></li>
-                    <li><a href="https://nike.com/" target="_blank">Nike</a></li>
-                </ul>
+    <div class="content">
+        <h2 id="Welcome">Welcome!</h2>
+        <p>This is my Task 1 webpage layout created using only divs and CSS positioning.</p>
+        <h2 id="Me">About Me</h2>
+        <h3>Nurzhigit Bolat</h3>
+        <p>I am a second-year student at Astana IT University, <b>group MT 2401.</b></p>
+        <h3>My Hobbies</h3>  
+        <ol>
+            <li>Cycling</li>
+                <li>Videogames</li>
+                <li>Grappling</li>
+        </ol>
+        <h3>My Favourite Websites</h3>
+        <ul>
+            <li><a href="https://www.rolls-roycemotorcars.com/en_GB/home.html" target="_blank">Rolls Royce</a></li>
+            <li><a href="https://intl.nothing.tech/" target="_blank">Nothing Phone</a></li>
+            <li><a href="https://nike.com/" target="_blank">Nike</a></li>
+        </ul>
+        <h2 id="contacts">Contacts</h2>
+        <h3>Teams:</h3>
+        <p>212454@astanait.edu.kz</p>
+    </div>
 
-                <img src="Batman.avif" alt="Photo" width="200" height="300">
-                <br>
-
-                <button>Click Me</button>
-
-                <hr>
-                <h3 id="schedule">Weekly Class Schedule</h3>
-                <table border="1" width="100%">
-                    <tr>
-                        <th>Subject</th>
-                        <th>Day</th>
-                        <th>Time</th>
-                    </tr>
-                    <tr>
-                        <td>Cinematography & Digital Editing</td>
-                        <td>Monday</td>
-                        <td>14:00</td>
-                    </tr>
-                    <tr>
-                        <td>WEB Technologies 1 (Front End)</td>
-                        <td>Monday</td>
-                        <td>16:00</td>
-                    </tr>
-                    <tr>
-                        <td>Cinematography & Digital Editing</td>
-                        <td>Tuesday</td>
-                        <td>13:05</td>
-                    </tr>
-                    <tr>
-                        <td>Foundation of Screenwriting</td>
-                        <td>Thursday</td>
-                        <td>16:00</td>
-                    </tr>
-                    <tr>
-                        <td>Operating Systems and Computer Networks</td>
-                        <td>Friday</td>
-                        <td>12:00</td>
-                    </tr>
-                </table>
-
-                <hr>
-                <h3 id="mood">How was my mood today</h3>
-                <p>Today was mostly a really good day 😊. I felt happy and things were going well throughout. But at the end of the day, something frustrating happened 😕 — my headphones broke 💔🎧.<br>
-                It kind of spoiled the mood, but overall the day was still good 🌟.</p>
-
-                <hr>
-                <h3 id="form">Please Fill the Form</h3>
-                <form>
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" required>
-                    <br><br>
-
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required>
-                    <br><br>
-
-                    <label for="color">Favorite Color:</label><br>
-                    <input type="color" id="color" name="color">
-                    <br><br>
-
-                    <input type="submit" value="Submit">
-                </form>
-            </td>
-        </tr>
-    </table>
-
+    <div class="footer">
+        <p>&copy; 2025 My Website</p>
+    </div>
 </body>
 </html>
