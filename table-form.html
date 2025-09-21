@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table & Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1 id="grades-title">Student Grades</h1>
+    </div>
+
+<div class="sidebar">
+        <h3>Menu</h3>
+        <ul>
+        <li><a href="#grade">Grades</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        </ul>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="tribute.html">Tribute Page</a>
+        <a href="table-form.html">Table & Form</a>
+        <a href="#">Task 4 (Skipped)</a>
+    </div>
+
+    <div class="content">
+        <h2 id="grade">Grades</h2>
+        <table>
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Nurzhigit</td>
+            <td>Web Technologies</td>
+            <td>A</td>
+            </tr>
+            <tr class="highlight-row">
+            <td>Adilseit</td>
+            <td>Web Technologies</td>
+            <td>A-</td>
+            </tr>
+            <tr>
+            <td>Arman</td>
+            <td>Web Technologies</td>
+            <td>B</td>
+            </tr>
+        </tbody>
+        </table>
+
+        <h2 id="feedback">Feedback Form</h2>
+        <form class="feedback-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="role">Role:</label>
+        <select id="role" name="role">
+            <option>Student</option>
+            <option>Teacher</option>
+            <option>Other</option>
+        </select><br>
+
+        <p>Do you like this website?</p>
+        <input type="radio" name="like" value="yes"> Yes
+        <input type="radio" name="like" value="no"> No<br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments"></textarea><br>
+
+        <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 My Website</p>
+    </div>
+</body>
+</html>
